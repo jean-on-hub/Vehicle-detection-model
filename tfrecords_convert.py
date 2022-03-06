@@ -44,6 +44,7 @@ def create_tf_example(group, path):
     image = Image.open(encoded_jpg_io)
     width, height = image.size
 
+    #bounded_files = os.listdir("train_solution_bounding_boxes (1).csv")
     filename = group.filename.encode('utf8')
     image_format = b'jpg'
     xmins = []
@@ -76,3 +77,17 @@ def create_tf_example(group, path):
         'image/object/class/label': dataset_util.int64_list_feature(classes),
     }))
     return tf_example
+
+def main(_):
+    
+    writer = tf.python_io.TFRecordWriter(args.output_path)
+    path = os.path.join(args.image_dir)
+    grouped = split("train_solution_bounding_boxes (1).csv", 'filename')
+    for group in grouped:
+        tf_example = create_tf_example(group, path)
+        writer.write(tf_example.SerializeToString())
+    writer.close()
+    print('Successfully created the TFRecord file: {}'.format(args.output_path))
+
+if __name__ == '__main__':
+    tf.app.run()

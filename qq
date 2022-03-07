@@ -1,0 +1,131 @@
+[33mcommit 5197a8291a43a220c428523d20239ad0e13f1014[m[33m ([m[1;36mHEAD -> [m[1;32mssd_mobilenet_v[m[33m)[m
+Author: Michael S"exit()quit()git config --global user.name Michael <michael.sosu@amalitech.org>
+Date:   Mon Mar 7 23:25:27 2022 +0000
+
+    Moved into folder
+
+[33mcommit 94ba35a2028d9e04aa10423b350b31c27d25c036[m[33m ([m[1;32mmain[m[33m)[m
+Merge: d6dd92d 75f5c6c
+Author: Michael S"exit()quit()git config --global user.name Michael <michael.sosu@amalitech.org>
+Date:   Mon Mar 7 23:05:12 2022 +0000
+
+    Merge branch 'main' of https://github.com/jean-on-hub/Vehicle-detection-model into main
+
+[33mcommit d6dd92ded6cb6540d3ff066fdd5baf96aa8b92f7[m
+Merge: bc984a4 2690550
+Author: Michael S"exit()quit()git config --global user.name Michael <michael.sosu@amalitech.org>
+Date:   Mon Mar 7 06:45:31 2022 +0000
+
+    Merge branch 'main' of https://github.com/jean-on-hub/Vehicle-detection-model into main
+
+[33mcommit 75f5c6c33d3b06eb7c48dbae7923b4a08e57d1d8[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: jean-on-hub <jean.eudes@amalitech.org>
+Date:   Mon Mar 7 04:55:34 2022 +0000
+
+    train record
+
+[33mcommit d05ea2f91d87446c2d60c1c32cadf19e7ec19b72[m
+Author: jean-on-hub <jean.eudes@amalitech.org>
+Date:   Mon Mar 7 04:55:18 2022 +0000
+
+    train data
+
+[33mcommit 863852e5bb8cd7d5b54ad84cad0f33795878d757[m
+Author: jean-on-hub <jean.eudes@amalitech.org>
+Date:   Mon Mar 7 04:55:07 2022 +0000
+
+    test record
+
+[33mcommit c9ff3ec6832daa536f914cc9c091d0417c2643ab[m
+Author: jean-on-hub <jean.eudes@amalitech.org>
+Date:   Mon Mar 7 04:54:54 2022 +0000
+
+    test data
+
+[33mcommit 48b65ccd926425935a3f5018e2704c09379f177a[m
+Author: jean-on-hub <jean.eudes@amalitech.org>
+Date:   Mon Mar 7 04:54:44 2022 +0000
+
+    training model
+
+[33mcommit 71c88cb51b430f669b61fc0f5ad7713517ed15fb[m
+Author: jean-on-hub <jean.eudes@amalitech.org>
+Date:   Mon Mar 7 04:54:26 2022 +0000
+
+    label map
+
+[33mcommit 95590224ac1824d6b73c91130e8e18b864e56600[m
+Author: jean-on-hub <jean.eudes@amalitech.org>
+Date:   Mon Mar 7 04:53:15 2022 +0000
+
+    pre-trained  models
+
+[33mcommit 5806f64f3dca2343a299d3bea46951cd119711ab[m
+Author: jean-on-hub <jean.eudes@amalitech.org>
+Date:   Mon Mar 7 04:52:31 2022 +0000
+
+    scripts
+
+[33mcommit 2690550cb554818757da500daba52a82b2386eae[m
+Merge: 7882499 e49ce83
+Author: jean-on-hub <87473040+jean-on-hub@users.noreply.github.com>
+Date:   Sun Mar 6 17:10:30 2022 +0000
+
+    Merge pull request #2 from jean-on-hub/base-code(API)
+    
+    Tensorflow Object Detection API installation and testing
+
+[33mcommit bc984a4370ac70684df8a1372c8e30fd79c27590[m
+Merge: 7882499 a160d52
+Author: Michael S"exit()quit()git config --global user.name Michael <michael.sosu@amalitech.org>
+Date:   Thu Mar 3 23:06:31 2022 +0000
+
+    Merge branch 'second_batch_annotation' of https://github.com/jean-on-hub/Vehicle-detection-model into main
+
+[33mcommit a160d521c11e39db65f4c1cc123aa8b34dfeb03d[m[33m ([m[1;31morigin/second_batch_annotation[m[33m, [m[1;32msecond_batch_annotation[m[33m)[m
+Author: Michael S"exit()quit()git config --global user.name Michael <michael.sosu@amalitech.org>
+Date:   Thu Mar 3 20:04:23 2022 +0000
+
+    second batch xml to csv
+
+[33mcommit 7e07f23686b2b1ca8e8999a5efbe4e08edc82cf1[m
+Author: Michael S"exit()quit()git config --global user.name Michael <michael.sosu@amalitech.org>
+Date:   Thu Mar 3 18:45:21 2022 +0000
+
+    Annotation tool added
+
+[33mcommit 7882499f65eac087cef0054e8773101676f95126[m
+Author: jean-on-hub <jean.eudes@amalitech.org>
+Date:   Thu Mar 3 13:48:23 2022 +0000
+
+    annotated images
+
+[33mcommit 983bf85f91a65e3c25895a0891c0a2bdb41bf762[m
+Author: Michael S"exit()quit()git config --global user.name Michael <michael.sosu@amalitech.org>
+Date:   Thu Mar 3 11:59:20 2022 +0000
+
+    file moved for easy access
+
+[33mcommit 79f5fd8dd2d395a934ed5e782e898cecd06f7540[m
+Author: Michael S"exit()quit()git config --global user.name Michael <michael.sosu@amalitech.org>
+Date:   Thu Mar 3 11:57:38 2022 +0000
+
+    img used for annotation removed
+
+[33mcommit 4f5fd80a6fb222661c1b1192936b32e22db0e6bc[m
+Author: Michael S"exit()quit()git config --global user.name Michael <michael.sosu@amalitech.org>
+Date:   Thu Mar 3 11:52:16 2022 +0000
+
+    Second Batch Annotation
+
+[33mcommit e49ce83f20627e2c6e2a2562432d43db7cd25cb5[m[33m ([m[1;31morigin/base-code(API)[m[33m)[m
+Author: SeyramDiaba <87808524+SeyramDiaba@users.noreply.github.com>
+Date:   Thu Mar 3 02:52:52 2022 -0800
+
+    Tensorflow Object Detection API installation and testing
+
+[33mcommit 66a35ab204723becbeed791a9e08b61bf7fd7d1e[m
+Author: jean-on-hub <jean.eudes@amalitech.org>
+Date:   Tue Mar 1 15:50:47 2022 +0000
+
+    data
